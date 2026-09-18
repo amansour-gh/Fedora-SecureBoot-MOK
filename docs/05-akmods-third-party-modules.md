@@ -1065,3 +1065,6 @@ If the module is signed but the certificate is not trusted, investigate MOK enro
 If the module is built, signed, and trusted but still fails, investigate compatibility, dependencies, kernel configuration, and kernel logs.
 
 The next chapter applies these concepts to one of the most common external kernel-module cases on Fedora: **NVIDIA graphics drivers and Secure Boot**.
+---
+
+[← Previous: Practical MOK](04-practical-mok.md) | [Next: NVIDIA + Secure Boot →](06-nvidia-secure-boot.md)

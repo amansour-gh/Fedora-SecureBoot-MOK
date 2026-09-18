@@ -344,3 +344,7 @@ On Fedora, the relevant concepts can be separated into three layers:
 Understanding these distinctions makes it easier to understand why a third-party driver can work normally with Secure Boot disabled but fail to load when Secure Boot is enabled.
 
 The next chapters will move from these concepts to the practical Fedora workflow, including MOK enrollment, module signing, `akmods`, verification, and troubleshooting.
+
+---
+
+[Next: MOK →](02-mok.md)

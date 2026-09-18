@@ -1064,3 +1064,6 @@ The important concepts from this chapter are:
 12. **`modinfo`****, ****`mokutil`****, ****`akmods`****, and ****`journalctl`**** provide useful diagnostic information.**
 
 The next chapter will move from concepts to the practical Fedora workflow: **MOK keys, ****`kmodgenca`****, enrollment, and verifying the resulting trust relationship**.
+---
+
+[← Previous: MOK](02-mok.md) | [Next: Practical MOK →](04-practical-mok.md)

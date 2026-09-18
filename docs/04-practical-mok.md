@@ -747,3 +747,6 @@ The most important rules are:
 MOK enrollment prepares the trust relationship. It does not replace the module-signing process.
 
 The next chapter will connect this trust setup to the actual `akmods` build and signing workflow.
+---
+
+[← Previous: Module Signing & akmods](03-module-signing-akmods.md) | [Next: akmods & Third-Party Modules →](05-akmods-third-party-modules.md)

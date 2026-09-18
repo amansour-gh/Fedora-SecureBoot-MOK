@@ -597,3 +597,7 @@ The most important distinctions are:
 Understanding these relationships is essential before troubleshooting third-party kernel modules on Fedora.
 
 The next chapter will examine **kernel module signing and `akmods`**, including how Fedora builds external modules and how Secure Boot affects their loading.
+
+---
+
+[← Previous: Secure Boot](01-secure-boot.md) | [Next: Module Signing & akmods →](03-module-signing-akmods.md)

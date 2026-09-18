@@ -12,7 +12,7 @@ This chapter focuses specifically on NVIDIA and Secure Boot.
 
 For the general concepts behind external kernel modules, `akmods`, module signing, MOK enrollment, and Secure Boot, see:
 
-* `04-secure-boot-mok.md`
+* `01-secure-boot.md`
 * `05-akmods-third-party-modules.md`
 
 The goal of this chapter is not to provide a collection of unrelated NVIDIA fixes. Instead, it provides a predictable installation and diagnostic workflow.
@@ -1245,5 +1245,9 @@ This approach is more reliable than repeatedly reinstalling the driver or disabl
 
 For the underlying concepts of external modules, `akmods`, signing, MOK, and Secure Boot, refer back to:
 
-* `04-secure-boot-mok.md`
+* `01-secure-boot.md`
 * `05-akmods-third-party-modules.md`
+
+---
+
+[← Previous: akmods & Third-Party Modules](05-akmods-third-party-modules.md)
