@@ -59,6 +59,6 @@ The chapters are designed to build on each other. Chapters 5 and 6 focus on prac
 
 ## Status
 
-🚧 Work in progress.
+Active documentation project.
 
-Six documentation chapters are currently available. The project is being developed as a focused Fedora reference for Secure Boot, MOK, and third-party kernel modules.
+Six documentation chapters are currently available. The project is maintained as a focused Fedora reference for Secure Boot, MOK, and third-party kernel modules.
