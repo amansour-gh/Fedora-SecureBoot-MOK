@@ -46,10 +46,19 @@ The instructions will be tested against current Fedora releases and may require 
 
 ## Documentation
 
-Documentation will be added gradually as each topic is tested and verified.
+The documentation is organized from core concepts to practical configuration and troubleshooting:
+
+1. [Secure Boot](docs/01-secure-boot.md) — Secure Boot fundamentals and how the trust chain works.
+2. [MOK](docs/02-mok.md) — Machine Owner Key enrollment and management.
+3. [Module Signing & akmods](docs/03-module-signing-akmods.md) — Kernel module signing and the role of `akmods`.
+4. [Practical MOK](docs/04-practical-mok.md) — Practical MOK setup, verification, and recovery.
+5. [akmods & Third-Party Modules](docs/05-akmods-third-party-modules.md) — Building, signing, and troubleshooting external kernel modules.
+6. [NVIDIA + Secure Boot](docs/06-nvidia-secure-boot.md) — NVIDIA driver installation, module signing, Secure Boot verification, and troubleshooting.
+
+The chapters are designed to build on each other. Chapters 5 and 6 focus on practical third-party kernel module workflows and NVIDIA-specific troubleshooting.
 
 ## Status
 
 🚧 Work in progress.
 
-This project is being developed as a focused Fedora reference for Secure Boot, MOK, and third-party kernel modules.
+Six documentation chapters are currently available. The project is being developed as a focused Fedora reference for Secure Boot, MOK, and third-party kernel modules.
