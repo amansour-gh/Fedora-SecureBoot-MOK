@@ -451,7 +451,7 @@ The exact requirements depend on the module.
 
 `akmods` and module signing solve different problems.
 
-**`akmods`****:**
+**`akmods`:**
 
 > Builds and installs external kernel modules.
 
@@ -512,7 +512,7 @@ The exact key-generation and enrollment procedure will be covered in the practic
 This separation is intentional:
 
 * Chapter 2 explains **what MOK is**.
-* Chapter 3 explains **how module signing and ****`akmods`**** work**.
+* Chapter 3 explains **how module signing and `akmods` work**.
 * A later practical chapter will explain **how to configure the actual Fedora workflow**.
 
 ---
@@ -1058,12 +1058,12 @@ The important concepts from this chapter are:
 6. **A signature is not automatically trusted.**
 7. **The kernel performs the final signature verification.**
 8. **MOK can provide an owner-controlled trusted public key.**
-9. **`akmods`**** builds and installs external kernel modules.**
-10. **`akmods`**** and module signing solve different problems.**
+9. **`akmods` builds and installs external kernel modules.**
+10. **`akmods` and module signing solve different problems.**
 11. **Kernel updates can require external modules to be rebuilt.**
-12. **`modinfo`****, ****`mokutil`****, ****`akmods`****, and ****`journalctl`**** provide useful diagnostic information.**
+12. **`modinfo`, `mokutil`, `akmods`, and `journalctl` provide useful diagnostic information.**
 
-The next chapter will move from concepts to the practical Fedora workflow: **MOK keys, ****`kmodgenca`****, enrollment, and verifying the resulting trust relationship**.
+The next chapter will move from concepts to the practical Fedora workflow: **MOK keys, `kmodgenca`, enrollment, and verifying the resulting trust relationship**.
 ---
 
 [← Previous: MOK](02-mok.md) | [Next: Practical MOK →](04-practical-mok.md)
