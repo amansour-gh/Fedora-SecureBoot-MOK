@@ -54,7 +54,7 @@ The private key remains with the system owner or build system, while the public 
 
 ---
 
-# Public and Private Keys
+## Public and Private Keys
 
 MOK uses public-key cryptography.
 
@@ -115,7 +115,7 @@ Enrolled MOK
 
 ---
 
-# MOK and Secure Boot
+## MOK and Secure Boot
 
 MOK and Secure Boot are closely related, but they are different mechanisms.
 
@@ -159,7 +159,7 @@ Therefore, it is better to think of MOK as **additional trusted key material** r
 
 ---
 
-# How MOK Enrollment Works
+## How MOK Enrollment Works
 
 MOK enrollment is intentionally designed to require user interaction.
 
@@ -193,7 +193,7 @@ This project will cover the practical Fedora workflows in later chapters.
 
 ---
 
-# Why Does Enrollment Require a Reboot?
+## Why Does Enrollment Require a Reboot?
 
 MOK enrollment is handled outside the normal Fedora userspace.
 
@@ -209,7 +209,7 @@ The exact appearance of this interface may vary between systems and boot configu
 
 ---
 
-# The MOK Enrollment Screen
+## The MOK Enrollment Screen
 
 When a pending MOK enrollment request exists, the system may display a firmware-style enrollment interface during boot.
 
@@ -229,7 +229,7 @@ Enrollment is the step that tells the system to recognize the public key as trus
 
 ---
 
-# Enrollment Password
+## Enrollment Password
 
 Many MOK enrollment workflows use a temporary password to confirm the enrollment request during reboot.
 
@@ -255,7 +255,7 @@ Its purpose is to provide an explicit confirmation step.
 
 ---
 
-# Where Are MOKs Stored?
+## Where Are MOKs Stored?
 
 An enrolled MOK is not simply a normal file in the user's home directory.
 
@@ -281,7 +281,7 @@ Therefore, having a `.der`, `.crt`, or similar public-key file on disk does **no
 
 ---
 
-# Checking Enrolled MOKs
+## Checking Enrolled MOKs
 
 A useful diagnostic step is to inspect the MOK database.
 
@@ -303,7 +303,7 @@ The exact output varies depending on the system.
 
 ---
 
-# Checking Secure Boot State
+## Checking Secure Boot State
 
 `mokutil` can also be used to check whether Secure Boot is currently enabled:
 
@@ -327,7 +327,7 @@ This is useful when troubleshooting because the behavior of kernel module signat
 
 ---
 
-# MOK Enrollment Is Not Module Signing
+## MOK Enrollment Is Not Module Signing
 
 One of the most common misunderstandings is treating MOK enrollment and module signing as the same operation.
 
@@ -358,7 +358,7 @@ If a module is signed with a different private key, enrolling an unrelated MOK w
 
 ---
 
-# One MOK Can Be Used for Multiple Modules
+## One MOK Can Be Used for Multiple Modules
 
 A signing key can be used to sign multiple kernel modules.
 
@@ -383,7 +383,7 @@ The exact key-management workflow should still be understood before relying on a
 
 ---
 
-# MOK and Kernel Updates
+## MOK and Kernel Updates
 
 A kernel update can introduce a new kernel version while external kernel modules may need to be rebuilt for that version.
 
@@ -413,7 +413,7 @@ Later chapters will explain how module rebuilding and signing fit together.
 
 ---
 
-# Security Considerations
+## Security Considerations
 
 MOK provides useful flexibility, but enrolling a key changes the system's trust configuration.
 
@@ -480,7 +480,7 @@ Enroll only if trusted
 
 ---
 
-# Removing a MOK
+## Removing a MOK
 
 MOK enrollment is not necessarily permanent.
 
@@ -499,7 +499,7 @@ Therefore, MOK removal should be treated as a system configuration change rather
 
 ---
 
-# MOK and `akmods`
+## MOK and `akmods`
 
 Fedora commonly uses **`akmods`** to build external kernel modules.
 
@@ -527,7 +527,7 @@ The details of how `akmods` generates, stores, and uses signing keys will be cov
 
 ---
 
-# What MOK Does Not Do
+## What MOK Does Not Do
 
 MOK does not:
 
@@ -544,7 +544,7 @@ The software signed by that key still needs to be understood and trusted by the 
 
 ---
 
-# Practical Mental Model
+## Practical Mental Model
 
 A simple way to remember the relationship is:
 
@@ -580,7 +580,7 @@ Or, even more simply:
 
 ---
 
-# Summary
+## Summary
 
 MOK is a mechanism that allows the owner of a system to enroll additional trusted public keys.
 

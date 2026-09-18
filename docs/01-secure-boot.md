@@ -123,7 +123,7 @@ For this reason, it is useful to think of Secure Boot as a **chain of trust**, r
 
 ---
 
-# Where Does MOK Fit?
+## Where Does MOK Fit?
 
 **MOK (Machine Owner Key)** is a mechanism commonly used on Linux systems to allow the system owner to add additional trusted signing keys.
 
@@ -197,7 +197,7 @@ A useful simplified model is:
 
 ---
 
-# Why Do Kernel Modules Matter?
+## Why Do Kernel Modules Matter?
 
 A Linux kernel module is code that can be loaded into the running kernel.
 
@@ -233,7 +233,7 @@ The exact enforcement behavior depends on the kernel configuration and platform 
 
 ---
 
-# Why Third-Party Drivers Can Require MOK
+## Why Third-Party Drivers Can Require MOK
 
 A driver supplied outside the standard Fedora kernel packages may not be signed by a key that the system already trusts.
 
@@ -268,7 +268,7 @@ This is one of the main reasons MOK becomes relevant on Fedora systems using thi
 
 ---
 
-# Secure Boot vs. MOK vs. Module Signing
+## Secure Boot vs. MOK vs. Module Signing
 
 The following table summarizes the distinction:
 
@@ -285,7 +285,7 @@ These components should not be treated as interchangeable.
 
 ---
 
-# The Trust Chain
+## The Trust Chain
 
 A useful way to understand the complete picture is to think in terms of a chain of trust:
 
@@ -317,7 +317,7 @@ The important question at each stage is:
 
 ---
 
-# What MOK Does Not Mean
+## What MOK Does Not Mean
 
 MOK does not mean that Secure Boot has been disabled.
 
@@ -331,7 +331,7 @@ This distinction becomes particularly important when troubleshooting module-load
 
 ---
 
-# Summary
+## Summary
 
 Secure Boot is a UEFI-based mechanism for establishing trust during system startup.
 

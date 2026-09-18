@@ -22,7 +22,7 @@ On Fedora, external kernel modules are commonly handled through the `akmods` fra
 
 ---
 
-# What Is a Kernel Module?
+## What Is a Kernel Module?
 
 The Linux kernel can provide functionality either directly inside the kernel or through loadable modules.
 
